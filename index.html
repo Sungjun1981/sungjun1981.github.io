@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박성준 - 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn" data-lang="en" title="English">🇺🇸</button>
+        <button class="lang-btn" data-lang="ko" title="한국어">🇰🇷</button>
+        <button class="lang-btn active" data-lang="ja" title="日本語">🇯🇵</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span data-i18n="nav.name">박성준</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" data-i18n="nav.about">소개</a></li>
+                <li><a href="#experience" data-i18n="nav.experience">경력</a></li>
+                <li><a href="#education" data-i18n="nav.education">학력</a></li>
+                <li><a href="#certifications" data-i18n="nav.certifications">자격증</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">연락</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-icon">👨‍💼</div>
+                <h1 class="hero-name" data-i18n="hero.name">박성준</h1>
+                <h2 class="hero-title" data-i18n="hero.title">(주)씨원 과장</h2>
+                <p class="hero-subtitle" data-i18n="hero.expertise">안전 관리 및 가스 공급 시스템</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn--primary" data-i18n="hero.contact">연락하기</a>
+                    <a href="#about" class="btn btn--outline" data-i18n="hero.learn_more">더 알아보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.description">안전 관리, 가스 공급 시스템 및 실험실 운영 분야에서 20년 이상의 경험을 가진 전문가입니다. 현재 건설 현장 안전 관리에 집중하면서 사무 자동화 및 안전 교육 애플리케이션을 위한 소프트웨어 개발에 관심을 두고 있습니다.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label" data-i18n="about.years_experience">년 경험</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label" data-i18n="about.certifications">자격증</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label" data-i18n="about.degrees">학위</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience.title">경력</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-company">C1 Corporation</h3>
+                            <span class="timeline-period" data-i18n="experience.current">현재</span>
+                        </div>
+                        <h4 class="timeline-position" data-i18n="experience.c1_position">과장</h4>
+                        <p class="timeline-description" data-i18n="experience.c1_description">건설 현장 및 위험 작업 안전 관리</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-company">Samsung Electronics</h3>
+                            <span class="timeline-period">2002.08 - 2015.10</span>
+                        </div>
+                        <h4 class="timeline-position" data-i18n="experience.samsung_position">안전관리 대리</h4>
+                        <p class="timeline-description" data-i18n="experience.samsung_description">반도체 FAB용 가스 공급 장치 관리, 기업 부속 실험실 안전 관리</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-i18n="education.title">학력</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-school">Kyung Hee Cyber University</h3>
+                    <p class="education-degree" data-i18n="education.bachelor">학사</p>
+                    <span class="education-year">2014</span>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">📚</div>
+                    <h3 class="education-school">Jangan University</h3>
+                    <p class="education-degree" data-i18n="education.associate">관광일어통역 전문학사</p>
+                    <span class="education-year">2010</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-i18n="certifications.title">자격증</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">🏗️</div>
+                    <h4 class="certification-name" data-i18n="cert.construction">건설기술경력증 초급</h4>
+                    <p class="certification-issuer">KCEA</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🐍</div>
+                    <h4 class="certification-name" data-i18n="cert.python">Python 프로그래밍 기초</h4>
+                    <p class="certification-issuer">Codeit</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🦺</div>
+                    <h4 class="certification-name" data-i18n="cert.safety">건설안전산업기사</h4>
+                    <p class="certification-issuer">HRD Korea</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">📡</div>
+                    <h4 class="certification-name" data-i18n="cert.communication">통신선로기능사</h4>
+                    <p class="certification-issuer">KCA</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">⚙️</div>
+                    <h4 class="certification-name" data-i18n="cert.machinery">기계설계산업기사</h4>
+                    <p class="certification-issuer">HRD Korea</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">💭</div>
+                    <h4 class="certification-name" data-i18n="cert.computational">컴퓨팅사고능력3급</h4>
+                    <p class="certification-issuer">Korea Chamber of Commerce</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">📐</div>
+                    <h4 class="certification-name" data-i18n="cert.cad_mechanical">전산응용기계제도기능사</h4>
+                    <p class="certification-issuer">HRD Korea</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🇯🇵</div>
+                    <h4 class="certification-name">JLPT N2</h4>
+                    <p class="certification-issuer">The Japan Foundation</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🔧</div>
+                    <h4 class="certification-name" data-i18n="cert.cad_milling">컴퓨터응용밀링기능사</h4>
+                    <p class="certification-issuer">HRD Korea</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🔩</div>
+                    <h4 class="certification-name" data-i18n="cert.machine_fitting">기계가공조립기능사</h4>
+                    <p class="certification-issuer">HRD Korea</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">연락</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.get_in_touch">연락하기</h3>
+                    <p data-i18n="contact.message">프로젝트 협업이나 문의사항이 있으시면 언제든 연락해 주세요.</p>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:junjun.park@gmail.com">junjun.park@gmail.com</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label" data-i18n="contact.form.name">이름</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label" data-i18n="contact.form.email">이메일</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label" data-i18n="contact.form.subject">제목</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label" data-i18n="contact.form.message">메시지</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width" data-i18n="contact.form.send">전송</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 <span data-i18n="footer.name">박성준</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
